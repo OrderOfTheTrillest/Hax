@@ -22,8 +22,13 @@ class Destiny
         $this->wonderfulMagic[] = $coolSpell;
     }
     
-    public function findMeWiz()
+    public function whosIt()
     {
         var_dump($this->powerfulWizard);
+    }
+    
+    public function wotsMePowas()
+    {
+        var_dump($this->wonderfulMagic);
     }
 }
